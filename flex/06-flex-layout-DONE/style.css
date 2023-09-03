@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+button:hover {
+  background-color: #cfcfcf;
+}
+
+.content {
+  display: flex;
+  flex: 1; /* flex: 1; = Flex-grow: 1; Flex-shrink: 1; Flex-basis: 0;*/
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: #666;/*changed the link colour from blue*/
+  text-decoration: none; /*removes the underlines that automatically applied to anchors*/
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #dadada; /*makes the footer stand out*/
+}
+
+ul {
+  display: flex;/*will change the default layout to columns*/
+  list-style: none;/*removes the bullet points from the link, however this would need to be adjusted if you actually want the bullet points on other parts of the page*/
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
